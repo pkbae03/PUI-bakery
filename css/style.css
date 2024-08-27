@@ -1,3 +1,4 @@
+
 @font-face{
     font-family: Poppins-Light;
     src: url(/assets/Poppins/Poppins-Light.ttf);
@@ -8,6 +9,11 @@
     src: url(/assets/Poppins/Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(/assets/Poppins/Poppins-Bold.ttf);
+}
+
 
 
 a {
@@ -16,6 +22,7 @@ a {
 }
 body{
 text-align: center;
+background-color: #F4E9E1;
 } /*aligning all of the text content in the center*/
 
 
@@ -76,7 +83,7 @@ width: 295px;
     padding-top: 30px;
     text-align: left;
     font-weight: normal;
-    font-family: Poppins-Light;
+    font-family: Poppins-Bold;
 
 }
 .row-nav {
@@ -151,16 +158,23 @@ select{
     padding: 5px;
 }
 
+.col h3{
+    font-family: Poppins-Regular;
+}
+
 #roll img{
     width: 600px;
     border: 3px solid black;
+    border-radius: 5%;
 }
 
 #label{
     padding-top: 150px;
+    font-family: Poppins-Bold;
 }
 #label1{
     padding-top: 50px;
+    font-family: Poppins-Bold;
 }
 
 .row {
@@ -192,8 +206,11 @@ select{
 
   #cartButton{
     background-color: yellow;
-    padding: 5px 20px;
+    padding: 7px 20px;
     font-weight: bold;
+    border-radius: 8px;
+    font-family: Poppins-Regular;
+    
 
   }
 
